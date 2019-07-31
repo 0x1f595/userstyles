@@ -1,0 +1,142 @@
+/* ==UserStyle==
+@name           Dark Feral Hosting
+@namespace      github.com/0x1f595/userstyles
+@version        1.0.0
+@author         0x1f595
+==/UserStyle== */
+
+@-moz-document domain("feralhosting.com") {
+    /* Global */
+    body {
+        background-color: #222;
+        color: #f5f5f5;
+    }
+    h1, h2, h3, h4, h5, h6 {
+        color: #ccc;
+    }
+    .quiet {
+        color: #999;
+    }
+    code, samp, kbd,
+    pre > code,
+    pre > samp,
+    pre > kbd,
+    blockquote {
+        background-color: #333;
+    }
+    pre > code,
+    pre > samp,
+    pre > kbd,
+    blockquote {
+        border-color: #444;
+    }
+    table {
+        border: 0;
+    }
+    thead,
+    tfoot,
+    tbody > tr:nth-child(even),
+    tbody > tr:hover {
+        background-color: #2a2a2a;
+    }
+    
+    /* Forms */
+    input[type="text"],
+    input[type="search"],
+    input[type="number"],
+    textarea {
+        background-color: #2a2a2a;
+        border: 1px solid #444;
+        color: #f5f5f5;
+    }
+    button {
+        background-color: #444;
+        border: 1px solid #666;
+        color: #f5f5f5;
+    }
+    button:focus,
+    button:hover {
+        background-color: #555;
+    }
+    
+    /* Home page */
+    #header a {
+        color: inherit;
+    }
+    #footer {
+        background-color: #2a2a2a;
+    }
+    table thead th,
+    table tbody td,
+    table tfoot td,
+    .pricing table tr td {
+        border-color: #666;
+    }
+    hr {
+       background-color: #666; 
+    }
+    
+    /* Account pages */
+    body > main {
+        background-color: #2a2a2a;
+    }
+    article {
+        background-color: #222;
+    }
+    .hl-success,
+    .h1-warning,
+    .hl-error {
+        color: #000;
+    }
+    article a {
+        color: #c42b17;
+    }
+    article a:hover,
+    article a:focus {
+        color: #ee5e4b;    
+    }
+    details.toc {
+        background-color: #2a2a2a;
+    }
+    aside.alert,
+    aside.alert.success,
+    aside.alert.note {
+        background-color: #2a2a2a;
+    }
+    aside.alert {
+        border-color: #821c1c;
+    }
+    aside.alert.note {
+        border-color: #12719c;
+    }
+    ol.ticket_view > li > dl > dt {
+        background-color: #333;
+    }
+}
+
+@-moz-document domain("network.feral.io") {
+    body {
+        background-color: #222;
+        color: #f5f5f5;
+    }
+    body > main {
+        background-color: #2a2a2a;
+    }
+    main > article {
+        background-color: #222;
+    }
+    input[type="text"] {
+        background-color: #2a2a2a;
+        border: 1px solid #444;
+        color: #f5f5f5;
+    }
+    button {
+        background-color: #444;
+        border: 1px solid #666;
+        color: #f5f5f5;
+    }
+    button:focus,
+    button:hover {
+        background-color: #555;
+    }
+}
